@@ -1,7 +1,6 @@
 package com.goit.service;
 
 import com.goit.database.Database;
-import com.goit.entity.Client;
 import com.goit.entity.Planet;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
