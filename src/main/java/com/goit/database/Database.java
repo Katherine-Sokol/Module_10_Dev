@@ -10,7 +10,7 @@ public class Database {
     private static final Database INSTANCE = new Database();
     private Connection connection;
 
-    private Database(){
+    private Database() {
         try {
             String connectionUrl = "jdbc:h2:./mydb";
             connection = DriverManager.getConnection(connectionUrl);
@@ -23,8 +23,8 @@ public class Database {
         return INSTANCE;
     }
 
-    public Connection getConnection(){
-        return  connection;
+    public Connection getConnection() {
+        return connection;
     }
 
     public void migrate() {

@@ -11,7 +11,7 @@ public class HibernateUtil {
     @Getter
     private SessionFactory sessionFactory;
 
-    public HibernateUtil(){
+    public HibernateUtil() {
         sessionFactory = new Configuration()
                 .addAnnotatedClass(Client.class)
                 .addAnnotatedClass(Planet.class)
